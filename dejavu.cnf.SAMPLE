@@ -1,8 +1,10 @@
-{
-    "database": {
-        "host": "127.0.0.1",
+from dejavu import Dejavu
+config = {
+     "database": {
+         "host": "127.0.0.1",
         "user": "root",
-        "passwd": "", 
-        "db": "dejavu"
-    }
-}
+         "passwd": <password above>, 
+        "db": dejavu,
+        }
+ }
+ djv = Dejavu(config)
